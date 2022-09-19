@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  list-style: none;
+}
+body {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+.user-list-title {
+  font-size: 1.5rem;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  background-color: #f3f8b6;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  background-color: #fffffff6;
+}
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+p {
+  font-size: 1rem;
+}
